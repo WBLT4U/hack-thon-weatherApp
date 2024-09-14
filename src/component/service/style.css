@@ -1,0 +1,148 @@
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+
+.search button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+}
+
+.search button:hover {
+  background-color: darkorange;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.weather-forecast {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  gap: 20px;
+  flex-wrap: wrap; /* Allows wrapping if the content overflows */
+}
+
+/* Style for the Weather component */
+.weather {
+  flex: 1 1 45%; /* Flex-grow, flex-shrink, and flex-basis */
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  overflow: hidden;
+  min-width: 500px; /* Ensures a minimum width for better layout */
+}
+/* Forecast.css or similar file */
+
+.container {
+  padding: 20px;
+}
+
+.weather-content {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-grid {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap onto the next line if needed */
+  gap: 20px; /* Space between items */
+  justify-content: space-between; /* Distribute items evenly */
+}
+
+.forecast-item {
+  flex: 1 1 18%; /* Grow, shrink, and base size */
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-item img {
+  max-width: 100%; /* Ensure images fit within their container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.additional-content {
+  margin-top: 20px;
+}
+
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+  .app {
+    padding: 40px;
+  }
+
+  .weather-forecast {
+    flex-direction: row; /* Side by side layout */
+  }
+
+  .weather {
+    min-width: 45%; /* Ensures enough space for content */
+  }
+}
+
+@media (max-width: 767px) {
+  .search {
+    width: 100%;
+  }
+
+  .search input {
+    width: calc(100% - 20px); /* Adjust width for mobile */
+  }
+
+  .search button {
+    width: 100%;
+  }
+
+  .weather-forecast {
+    flex-direction: column; /* Stack vertically on small screens */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .weather {
+    margin: 0 0 20px; /* Add margin between components */
+    min-width: 100%; /* Full width on small screens */
+  }
+}
