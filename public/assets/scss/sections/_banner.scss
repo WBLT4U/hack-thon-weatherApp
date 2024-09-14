@@ -4391,7 +4391,7 @@
 
     .rv-20-banner_slide {
         background: url(/assets/img/slider/home-6-banner-bg-1.jpg) no-repeat center center;
-        background-size: 80% auto; /* Adjust width and maintain aspect ratio */
+        background-size: cover; /* Adjust width and maintain aspect ratio */
         position: relative;
         z-index: 1;
         height: 300px; /* Set a fixed height to reduce the overall height */
@@ -4407,7 +4407,7 @@
     
         &-2 {
             background-image: url(/assets/img/slider/home-6-banner-bg-2.jpg);
-            background-size: 80% auto; /* Maintain smaller background image size */
+            background-size: cover; /* Maintain smaller background image size */
         }
     
         .rv-20-banner_content {
