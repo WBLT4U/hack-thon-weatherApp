@@ -136,7 +136,7 @@ const FooterSection = ({
                 <h5 className="rv-1-footer-widget__title">Recent Posts</h5>
                 <div className="rv-8-footer-article rv-20-footer-article">
                   <img
-                    src="assets/img/rv-9-footer-article-1.jpg"
+                    src="assets/img/about/farm3.jpeg"
                     alt="Article image"
                     className="rv-8-footer-article-img"
                   />
@@ -153,7 +153,7 @@ const FooterSection = ({
 
                 <div className="rv-8-footer-article rv-20-footer-article">
                   <img
-                    src="assets/img/rv-12-logo.png"
+                    src="assets/img/about/farmbg1.jpg"
                     alt="Article image"
                     className="rv-8-footer-article-img"
                   />

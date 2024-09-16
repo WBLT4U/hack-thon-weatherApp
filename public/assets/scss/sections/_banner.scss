@@ -163,7 +163,7 @@
 
         a {
             width: 40px;
-            height: 40px;
+            height: 20px;
             line-height: 40px;
             text-align: center;
             border-radius: 50%;
@@ -4390,12 +4390,12 @@
     }
 
     .rv-20-banner_slide {
-        background: url(/assets/img/slider/home-6-banner-bg-1.jpg) no-repeat center center;
-        background-size: cover; /* Adjust width and maintain aspect ratio */
+        background-image: url('/assets/img/slider/home-6-banner-bg-1.jpg') no-repeat center center;
+        background-size: cover; /* Cover ensures the image will fill the container */
+        height: 400px; /* Adjust height as needed to reduce the overall banner height */
         position: relative;
         z-index: 1;
-        height: 300px; /* Set a fixed height to reduce the overall height */
-    
+        
         &::before {
             content: "";
             position: absolute;
@@ -4404,27 +4404,25 @@
             opacity: 0.8;
             background: linear-gradient(90deg, #081C15 35.94%, rgba(8, 28, 21, 0.00) 82.81%);
         }
+    }
     
-        &-2 {
-            background-image: url(/assets/img/slider/home-6-banner-bg-2.jpg);
-            background-size: cover; /* Maintain smaller background image size */
+    .rv-20-banner_slide-2 {
+        background-image: url('/assets/img/slider/home-6-banner-bg-1.jpg');
+        background-size: cover;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .rv-20-banner_slide {
+            height: 300px; /* Reduce height for tablets */
         }
+    }
     
-        .rv-20-banner_content {
-            padding: 50px 0; /* Reduce padding to further reduce height */
-        
-            @media #{$lg} {
-                padding: 150px 0;
-            }
-
-            @media #{$md,$sm,$mobile,$sm-mobile} {
-                padding: 130px 0;
-            }
-
-            @media #{$mobile,$sm-mobile} {
-                padding: 100px 0;
-            }
-
+    @media (max-width: 480px) {
+        .rv-20-banner_slide {
+            height: 250px; /* Further reduce height for mobile devices */
+        }
+    }
             .rv-20-banner_content_sub_heading {
                 color: #FFFFFF;
                 font-weight: 500;
@@ -4566,8 +4564,7 @@
                 }
             }
         }
-    }
-}
+  
 
 
 // INDEX-21 BANNER

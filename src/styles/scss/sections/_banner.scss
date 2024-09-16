@@ -4390,8 +4390,9 @@
     }
 
     .rv-20-banner_slide {
-        background: url(/assets/img/slider/home-6-banner-bg-1.jpg) no-repeat center center;
-        background-size: cover;
+        background: url(/public/assets/img/slider/home-6-banner-bg-1.jpeg) no-repeat center center;
+        background-size: cover; /* Cover ensures the image will fill the container */
+        height: 600px; /* Adjust height as needed to reduce the overall banner height */
         position: relative;
         z-index: 1;
 
@@ -4405,11 +4406,12 @@
         }
 
         &-2 {
-            background-image: url(/assets/img/slider/home-6-banner-bg-2.jpg);
+            background-image: url(/public/assets/img/slider/home-6-banner-bg-2.jpeg);
+            background-size: cover;
         }
 
         .rv-20-banner_content {
-            padding: 200px 0;
+            padding: 20px 0;
 
             @media #{$lg} {
                 padding: 150px 0;

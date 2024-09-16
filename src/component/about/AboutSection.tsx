@@ -8,7 +8,7 @@ const AboutSection = () => {
         <DivAnimateYAxis className="row">
           <div className="col-md-12  col-lg-6 col-xl-5">
             <div className="rv-20-about_image">
-              <img src="assets/img/about/weatherfarm1.jfif" alt="image" />
+              <img src="assets/img/about/farm10.jpeg" alt="image" />
 
               <img src="assets/img/about/farmbg.jpg" alt="image" />
               <div className="rv-20-about_experience_txt">

@@ -1,12 +1,14 @@
 .rv-20-banner_slide.background-image-1 {
-    background-image: url('farmbg.jpg');
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .rv-20-banner_slide.background-image-2 {
-    background-image: url('farmbg.jpg');
-    background-size: cover;
-    background-position: center;
-  }
+  background: url('/public/assets/img/slider/home-6-banner-bg-1.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100px; /* Adjust height as needed */
+}
+
+.rv-20-banner_slide.background-image-2 {
+  background: url('/public/assets/img/slider/home-6-banner-bg-1.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100px; /* Adjust height for the second slide */
+}
   
