@@ -30,7 +30,7 @@ const Home2 = () => {
       <BlogSection2 />
       <PartnerSection />
       <GallerySection />
-      <FooterSection2 />
+      
       {/* Modal */}
       <SearchFormModal />
       <CartModal />
