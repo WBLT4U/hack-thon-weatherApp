@@ -51,13 +51,7 @@ const BannerSection = () => {
             <div className="row align-items-center">
               <div className="col-sm-10 col-md-9 col-lg-8 col-xl-7">
                 <div className="rv-20-banner_content">
-<<<<<<< HEAD
                   
-=======
-                  <span className="rv-20-banner_content_sub_heading rv-text-anime d-flex">
-                    <span></span> AgricInsight Weather App
-                  </span>
->>>>>>> 3aff5f546fb27eb533ec7cbdf20d5d80fa9debb9
                   <h1 className="rv-20-banner_content_heading rv-text-anime">
                   Empowering farmers with tomorrow’s weather, today.
                   </h1>
@@ -84,13 +78,7 @@ const BannerSection = () => {
             <div className="row align-items-center">
               <div className="col-sm-10 col-md-9 col-lg-8 col-xl-7">
                 <div className="rv-20-banner_content">
-<<<<<<< HEAD
                   
-=======
-                  <span className="rv-20-banner_content_sub_heading rv-text-anime">
-                    <span></span> AgricInsight Weather App
-                  </span>
->>>>>>> 3aff5f546fb27eb533ec7cbdf20d5d80fa9debb9
                   <h1 className="rv-20-banner_content_heading rv-text-anime">
                   Bringing you the forecast for bountiful harvests.
                   </h1>
