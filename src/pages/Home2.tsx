@@ -2,7 +2,6 @@ import BannerSection2 from "../component/banner/BannerSection2";
 import BlogSection2 from "../component/blog/BlogSection2";
 import CategorySection from "../component/category/CategorySection";
 import FeatureSection from "../component/feature/FeatureSection";
-import FooterSection2 from "../component/footer/FooterSection2";
 import GallerySection from "../component/gallery/GallerySection";
 import HeaderSection2 from "../component/header/HeaderSection2";
 import InfoSection from "../component/info/InfoSection";
