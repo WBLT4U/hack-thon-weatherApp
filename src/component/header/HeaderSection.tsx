@@ -78,41 +78,20 @@ const HeaderSection = () => {
             <div className="col-lg-6">
               <div className="rv-8-header-top__txt rv-7-header-top__actions mb-0">
                 <div className="rv-8-header-socials rv-10-header-socials">
-                  <h6>Follow Us:</h6>
-                  <a href="#">
-                    <i className="fa-brands fa-facebook-f"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fa-brands fa-linkedin-in"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fa-brands fa-twitter"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fa-brands fa-pinterest"></i>
-                  </a>
+                
                 </div>
               </div>
             </div>
 
-            <div className="col-lg-6">
-              <div className="rv-7-header-top__actions rv-20-header-top__actions justify-content-center justify-content-lg-end">
-                <button
+              <button
                   className="rv-search-modal-open-btn"
                   onClick={openSearchModal}
                 >
-                  <i className="fa-regular fa-magnifying-glass"></i> Search...
+                  
                 </button>
-                <h6 className="rv-8-header-contact-info rv-8-header-contact-numb">
-                  <i className="fa-solid fa-sharp fa-phone"></i>{" "}
-                  <a href="tel:1237775643">(+234) 806 671 3592</a>
-                </h6>
-                <h6 className="rv-8-header-contact-info rv-8-header-contact-email">
-                  <i className="fa-solid fa-envelope"></i>
-                  <a href="mailto:taofiqabdulsalam48@gmail.com">taofiqabdulsalam48@gmail.com</a>
-                </h6>
-              </div>
-            </div>
+                
+                
+              
           </div>
         </div>
       </div>

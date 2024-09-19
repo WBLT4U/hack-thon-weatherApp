@@ -1,158 +1,235 @@
 import { Link } from "react-router-dom";
 
-const FooterSection2 = () => {
+type Props = {
+  style?: string;
+  logo: string;
+  footerContactStyle?: string;
+  footerFormStyle: string;
+};
+const FooterSection = ({
+  style,
+  logo,
+  footerContactStyle,
+  footerFormStyle,
+}: Props) => {
   return (
-    <footer className="rv-1-footer rv-3-footer rv-12-footer rv-12-infos p-0">
+    <footer className={`rv-9-footer ${style ? style : ""}`}>
       <div className="container">
-        <div className="rv-1-footer-top">
-          <div className="row gy-5 justify-content-xl-between justify-content-center">
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="rv-1-footer__about">
+        <div className="rv-9-footer-top">
+          <div className="row gy-3 justify-content-between align-items-center">
+            <div className="col-lg-3">
+              <div className="rv-9-footer-logo text-sm-center text-lg-start">
                 <Link to="/">
-                  <img
-                    src="assets/img/rv-12-logo-light.png"
-                    alt="Logo"
-                    className="logo"
-                  />
+                  <img src={logo} alt="logo" className="logo" />
                 </Link>
+              </div>
+            </div>
+
+            <div className="col-xxl-8 col-lg-9">
+              <div className="row gy-3 align-items-center justify-content-center">
+                <div className="col-md-4 col-sm-6">
+                  <div
+                    className={`rv-5-about__call rv-9-footer__contact-card ${
+                      footerContactStyle ? footerContactStyle : ""
+                    }`}
+                  >
+                    <span className="rv-5-about__call-icon">
+                      <i className="fa-regular fa-phone-volume"></i>
+                    </span>
+                    <div className="rv-5-about__call-txt">
+                      <h6>Our Phone</h6>
+                      <a href="tel:123654564388" className="">
+                        +2348066713592, +2349026847322, +2348058154308
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 col-sm-6">
+                  <div
+                    className={`rv-5-about__call rv-9-footer__contact-card ${
+                      footerContactStyle ? footerContactStyle : ""
+                    }`}
+                  >
+                    <span className="rv-5-about__call-icon">
+                      <i className="fa-light fa-envelopes"></i>
+                    </span>
+                    <div className="rv-5-about__call-txt">
+                      <h6>Our Email</h6>
+                      <a href="tel:123654564388" className="">
+                        hackathon@gmail.com
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 col-sm-6">
+                  <div
+                    className={`rv-5-about__call rv-9-footer__contact-card ${
+                      footerContactStyle ? footerContactStyle : ""
+                    }`}
+                  >
+                    <span className="rv-5-about__call-icon">
+                      <i className="fa-light fa-location-dot"></i>
+                    </span>
+                    <div className="rv-5-about__call-txt">
+                      <h6>Our Address</h6>
+                      <a href="tel:08066713592" className="">
+                        FCMB Hackathon
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="rv-8-footer-middle">
+          <div className="row gy-4 gx-lg-4 gx-md-5 gx-3 justify-content-center">
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-7">
+              <div className="rv-1-footer__about">
+                <h5 className="rv-1-footer-widget__title">About us</h5>
                 <p className="rv-1-footer__about-txt">
-                  Mauris justo mi, volutpat a lacus eget, laoreet vehicula
-                  augue.
+                  Skilled Web Application Developer, Software Developer, Mobile App Developer, UI/UX
                 </p>
-                <div className="rv-1-socials rv-12-socials">
-                  <Link to="#">
+                <div className="rv-1-socials rv-15-socials rv-20-socials">
+                  <a href="#">
                     <i className="fa-brands fa-twitter"></i>
-                  </Link>
-                  <Link to="#">
+                  </a>
+                  <a href="#">
                     <i className="fa-brands fa-facebook-f"></i>
-                  </Link>
-                  <Link to="#">
+                  </a>
+                  <a href="#">
                     <i className="fa-brands fa-linkedin-in"></i>
-                  </Link>
-                  <Link to="#">
+                  </a>
+                  <a href="#">
                     <i className="fa-brands fa-pinterest-p"></i>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
 
-            <div className="col-xl-6 col-lg-8 order-1 order-md-2 order-lg-1">
-              <div className="row gy-4">
-                <div className="col-md-4 col-6 col-xxs-12">
-                  <div className="rv-1-footer-widget rv-12-footer-widget">
-                    <h5 className="rv-1-footer-widget__title">Support</h5>
-                    <ul className="rv-1-footer-widget__links">
-                      <li>
-                        <Link to="/about">About Us</Link>
-                      </li>
-                      <li>
-                        <Link to="/contact">Contact Us</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Terms of Services</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Refund Policy</Link>
-                      </li>
-                    </ul>
+            <div className="col-xl-2 col-lg-3 col-md-6 col-sm-5">
+              <div className="rv-1-footer-widget rv-20-footer-widget">
+                <h5 className="rv-1-footer-widget__title">Our Services</h5>
+                <ul className="rv-8-footer-widget__links">
+                  <li>
+                    <a href="#">Web Development</a>
+                  </li>
+                  <li>
+                    <a href="#">Software Development</a>
+                  </li>
+                  <li>
+                    <a href="#">UI/UX Design</a>
+                  </li>
+                  <li>
+                    <a href="#">Mobile App Development</a>
+                  </li>
+                  <li>
+                    <a href="#">IT Consultant</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="col-xl-4 col-lg-5 col-md-6">
+              <div className="rv-1-footer-widget rv-8-footer-articles">
+                <h5 className="rv-1-footer-widget__title">Recent Posts</h5>
+                <div className="rv-8-footer-article rv-20-footer-article">
+                  <img
+                    src="assets/img/about/farm3.jpeg"
+                    alt="Article image"
+                    className="rv-8-footer-article-img"
+                  />
+
+                  <div className="rv-8-footer-article-txt">
+                    <span className="rv-8-footer-article-date">
+                      <i className="fa-regular fa-clock"></i> September 19, 2024
+                    </span>
+                    <h5 className="rv-8-footer-article-title">
+                      <a href="#">Rice crop with a verge hactre of land</a>
+                    </h5>
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 col-xxs-12">
-                  <div className="rv-1-footer-widget rv-12-footer-widget">
-                    <h5 className="rv-1-footer-widget__title">Policies</h5>
-                    <ul className="rv-1-footer-widget__links">
-                      <li>
-                        <Link to="#">Privacy Policy</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Refund Policy</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Our Sitemap</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+                <div className="rv-8-footer-article rv-20-footer-article">
+                  <img
+                    src="assets/img/about/farmbg1.jpg"
+                    alt="Article image"
+                    className="rv-8-footer-article-img"
+                  />
 
-                <div className="col-md-4 col-6 col-xxs-12">
-                  <div className="rv-1-footer-widget rv-12-footer-widget">
-                    <h5 className="rv-1-footer-widget__title">Contact Us</h5>
-                    <ul className="rv-1-footer-widget__infos">
-                      <li>
-                        <img src="assets/img/rv-1-icon-6.png" alt="icon" /> 24th
-                        St, New York, NY
-                      </li>
-                      <li>
-                        <img src="assets/img/rv-1-icon-7.png" alt="icon" />{" "}
-                        <Link to="tel:+12365858988">+123 658 589 88</Link>
-                      </li>
-                      <li>
-                        <img src="assets/img/rv-1-icon-8.png" alt="icon" />{" "}
-                        <Link to="mailto:info@gmail.com">info@gmail.com</Link>
-                      </li>
-                    </ul>
+                  <div className="rv-8-footer-article-txt">
+                    <span className="rv-8-footer-article-date">
+                      <i className="fa-regular fa-clock"></i> September 19, 2024
+                    </span>
+                    <h5 className="rv-8-footer-article-title">
+                      <a href="#">
+                        Beans crop with a verge hactre of land
+                      </a>
+                    </h5>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="col-xl-3 col-lg-4 col-md-6 order-2 order-md-1 order-lg-2">
-              <div className="rv-1-footer-nwsltr rv-3-footer-nwsltr">
-                <h5 className="rv-1-footer-widget__title">Newsletter</h5>
+            <div className="col-xl-3 col-lg-5 col-md-6">
+              <div className="rv-1-footer-nwsltr">
+                <h5 className="rv-1-footer-widget__title">Newsletter Signup</h5>
                 <form
                   action="#"
-                  className="rv-1-footer-nwsltr__form rv-3-footer-nwsltr__form rv-12-footer-nwsltr__form"
+                  className={`rv-6-footer-nwsltr__form  rv-8-footer-nwsltr__form ${footerFormStyle}`}
                 >
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Enter your Email..."
-                    required
-                  />
-                  <button className="rv-1-def-btn">
-                    <span className="txt">Subscribe</span>
-                  </button>
+                  <div className="nwsltr-top">
+                    <input
+                      type="email"
+                      name="email"
+                      id="rv-8-subs-form"
+                      placeholder="Enter your Email..."
+                      required
+                    />
+                    <button>
+                      <i className="fa-light fa-arrow-right"></i>
+                    </button>
+                  </div>
+                  <div className="rv-6-footer-nwsltr__checkbox">
+                    <input
+                      type="checkbox"
+                      id="nwsltr-checkbox"
+                      name="checkbox"
+                      value="1"
+                    />
+                    <label htmlFor="nwsltr-checkbox">
+                      I agree to the <a href="#">Privacy Policy</a>.
+                    </label>
+                  </div>
                 </form>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <div className="rv-1-footer-bottom">
-          <div className="row gy-3">
-            <div className="col-md-8">
-              <p className="rv-1-copyright m-0 text-center text-md-start">
-                &copy; {new Date().getFullYear()} All Rights Reserved by site
+      <div className="rv-2-footer rv-8-footer-bottom">
+        <div className="container">
+          <div className="row align-items-center gy-3">
+            <div className="col-md-7">
+              <p className="rv-2-copyright rv-1-copyright mb-0 text-center text-md-start">
+                &copy; {new Date().getFullYear()} Hackathon All Rights Reserved
+                by site
               </p>
             </div>
 
-            <div className="col-md-4 text-center text-md-end">
-              <img
-                src="assets/img/payment_method.png"
-                alt="Payment Method image"
-              />
+            <div className="col-md-5">
+              <div className="rv-2-footer__nav rv-20-footer-bottom__nav">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Term of Service</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="rv-12-infos__vectors">
-        <img
-          src="assets/img/rv-12-infos-vector.png"
-          alt="vector"
-          className="rv-12-infos-vector"
-        />
-      </div>
-      <div className="rv-12-infos__vectors rv-12-infos__vectors--2">
-        <img
-          src="assets/img/rv-12-infos-vector.png"
-          alt="vector"
-          className="rv-12-infos-vector"
-        />
       </div>
     </footer>
   );
 };
 
-export default FooterSection2;
+export default FooterSection;

@@ -43,19 +43,19 @@ const SpeakerSection = () => {
             <div className="rv-1-section-heading-left">
               <div>
                 <h6 className="rv-1-section__sub-title rv-text-anime">
-                  Event Speakers
+                  AgriInsight Consultant
                 </h6>
               </div>
               <div>
                 <h2 className="rv-1-section__title rv-text-anime">
-                  Featured Conference Speakers.
+                  Featured Speakers.
                 </h2>
               </div>
             </div>
 
             <DivAnimateYAxis className="rv-1-section-heading__right">
               <a href="#" className="rv-1-def-btn">
-                <span className="txt">View All Members</span>
+                <span className="txt">View All Consultant</span>
               </a>
               <div className="rv-1-slider-nav" id="rv-1-speakers__slider-nav">
                 <button className="prev">

@@ -21,7 +21,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h2 className="rv-20-contact_section_title rv-text-anime">
-                    Seeking a Home Gardener? Reach Out To Us.
+                    Seeking a Web Development, Software Development, Mobile App Development and UI/UX Design? Reach Out To Us.
                   </h2>
                 </div>
               </div>

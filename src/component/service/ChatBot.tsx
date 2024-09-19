@@ -49,7 +49,7 @@ const ChatBot: React.FC = () => {
   };
 
   return (
-    <div className="chatbot">
+    <div className="search">
       <input
         type="text"
         value={input}
@@ -57,7 +57,7 @@ const ChatBot: React.FC = () => {
         placeholder="Ask me about crop recommendations..."
       />
       <button onClick={handleChat} disabled={loading}>
-        {loading ? 'Sending...' : 'Send'}
+        {loading ? 'Sending...' : 'Search'}
       </button>
       {error && <p className="error">{error}</p>}
       <p>{response}</p>

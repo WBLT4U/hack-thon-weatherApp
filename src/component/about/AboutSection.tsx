@@ -1,6 +1,6 @@
 import NumberCounter from "../utils/NumberCounter";
 import DivAnimateYAxis from "../utils/DivAnimateYAxis";
-
+import SpeakerSection from "../speaker/SpeakerSection";
 const AboutSection = () => {
   return (
     <section className="rv-20-about_section">
@@ -27,80 +27,41 @@ const AboutSection = () => {
               <div className="rv-20-about_section_heading">
                 <div>
                   <p className="rv-20-about_sub_title rv-text-anime d-flex">
-                    <span></span> About Weather App
+                    <span></span> About AgriInsghts
                   </p>
                 </div>
                 <div>
-                  <h2 className="rv-20-about_section_title rv-text-anime">
-                    Weather App for Farmers
-                  </h2>
-                </div>
-              </div>
-              <div className="rv-20-about_content_top_actions">
-                <div className="rv-20-about_content_single_top_actions">
-                  <div className="rv-20-about_content_single_top_actions_left">
-                    <h3>Our Goals</h3>
-                    <p>Achievement..!</p>
-                  </div>
-                  <div className="rv-20-about_content_single_top_actions_icon">
-                    <i className="fas fa-chevron-right"></i>
-                  </div>
-                </div>
-                <div className="rv-20-about_content_single_top_actions">
-                  <div className="rv-20-about_content_single_top_actions_left">
-                    <h3>Our Goals</h3>
-                    <p>Progress..!</p>
-                  </div>
-                  <div className="rv-20-about_content_single_top_actions_icon">
-                    <i className="fas fa-chevron-right"></i>
-                  </div>
-                </div>
-              </div>
-              <div className="rv-20-about_list">
-                <ul>
-                  <li>
-                    <h4>
-                      <i className="far fa-chevron-double-right"></i>Gardens
-                    </h4>
-                    <p>
-                      Weather app
-                    </p>
-                  </li>
+                  <h5>
+                  
+Is a comprehensive platform designed to empower smallholder farmers by providing innovative solutions that address key challenges in the agriculture sector.The platform integrates tools to enhance market access, productivity, and capacity building. It allows farmers to connect directly with buyers, track real-time weather forecasts, and receive expert advice tailored to their crops and location. Additionally, AgriInsghts offers training resources and expert consultations, enabling farmers to optimize their farming practices and increase yields.
+Key features include real-time weather updates and AI-powered recommendations using ChatGPT for personalized farming advice. The platform also includes data-driven insights to help farmers make informed decisions based on local conditions, with access to logistics support and secure payment gateways for seamless transactions. Farmers can also rent land and equipment, further increasing their efficiency.
+AgriInsghts is designed to be mobile-friendly, with support for local languages and offline functionality. It aims to provide a one-stop solution that meets the diverse needs of smallholder farmers, addressing barriers to market access and improving overall productivity.
 
-                  <li>
-                    <h4>
-                      <i className="far fa-chevron-double-right"></i>Gardens
-                    </h4>
-                    <p>
-                      Weather app
-                    </p>
-                  </li>
-                  <li>
-                    <h4>
-                      <i className="far fa-chevron-double-right"></i>Gardens
-                    </h4>
-                    <p>
-                    Weather app
-                    </p>
-                  </li>
-                  <li>
-                    <h4>
-                      <i className="far fa-chevron-double-right"></i>Gardens
-                    </h4>
-                    <p>
-                      Weather App
-                    </p>
-                  </li>
-                </ul>
-              </div>
-            </div>
+                  </h5>
+                </div>
+              </div></div>
+              
           </div>
         </DivAnimateYAxis>
+        <SpeakerSection />
+        <div className="additional-content">
+        <div className="video-section">
+          <h3>Weather Update</h3>
+          <iframe
+            width="320"
+            height="240"
+            src="https://www.youtube.com/embed/9xkQFVGihQU?si=iiDdA5Lg2WVSsolJ" // Replace YOUR_VIDEO_ID with the actual YouTube video ID
+            title="Weather Update"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
       </div>
-      <span className="about-sh-6">
-        <img src="assets/img/about/farmbg.jpg" alt="image" />
-      </span>
+      </div>
+      
     </section>
+    
   );
 };
 

@@ -712,25 +712,25 @@ const speakersData = [
   {
     id: 2,
     videoSrc: "/assets/img/speaker-2.mp4",
-    role: "Developer Expert",
+    role: "Wheat Crop Expert",
     name: "Brandon Guidelines",
   },
   {
     id: 3,
     videoSrc: "/assets/img/speaker-3.mp4",
-    role: "Founder, Marks",
+    role: "Seeds Expert",
     name: "Spruce Springclean",
   },
   {
     id: 4,
     videoSrc: "/assets/img/speaker-4.mp4",
-    role: "Developer Expert",
+    role: "Rice Crop Expert",
     name: "Hermann P. Schnitzel",
   },
   {
     id: 5,
     videoSrc: "/assets/img/speaker-1.mp4",
-    role: "Lead Speaker",
+    role: "Cassava Expert",
     name: "Thomas R. Toe",
   },
 ];

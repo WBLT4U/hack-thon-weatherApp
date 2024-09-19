@@ -143,6 +143,7 @@ const Forecast: React.FC<ForecastProps> = ({ city }) => {
           <p>{alertMessage}</p>
         </div>
       </div>
+      <h4>Ask AI Questions</h4>
       <div className="additional-content">
         <div className="input-frame">
           <ChatBot />

@@ -26,7 +26,7 @@ interface WeatherData {
 
 // Component function definition with proper types
 const ServiceSection: React.FC = () => {
-  const [city, setCity] = useState<string>('Lagos'); // Default city
+  const [city, setCity] = useState<string>('Abuja'); // Default city
   const [weatherData, setWeatherData] = useState<WeatherData | null>(null); // Type as WeatherData or null
   const [error, setError] = useState<string>(''); // Type as string
 

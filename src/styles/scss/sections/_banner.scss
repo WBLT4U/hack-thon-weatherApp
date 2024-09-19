@@ -4402,7 +4402,7 @@
             inset: 0;
             z-index: -1;
             opacity: 0.8;
-            background: linear-gradient(90deg, #081C15 35.94%, rgba(8, 28, 21, 0.00) 82.81%);
+            
         }
 
         &-2 {
@@ -4426,14 +4426,14 @@
             }
 
             .rv-20-banner_content_sub_heading {
-                color: #FFFFFF;
+                color: green;
                 font-weight: 500;
                 font-size: 16px;
                 width: 250px;
                 height: 36px;
                 line-height: 36px;
                 text-align: center;
-                border: 1px solid rgba(255, 255, 255, 0.24);
+                border: 1px solid yellow;
                 display: flex;
                 justify-content: center;
                 align-items: center;

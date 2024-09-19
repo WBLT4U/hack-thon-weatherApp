@@ -112,7 +112,7 @@ const HeaderSection3 = () => {
             <div className="col-lg-3 col-4 col-xxs-6">
               <div className="rv-8-header__logo">
                 <Link to="/">
-                  <img src="assets/img/rv-9-logo.png" alt="Logo" />
+                  <img src="assets/img/rv-20-logo.png" alt="Logo" />
                 </Link>
               </div>
             </div>
@@ -126,7 +126,7 @@ const HeaderSection3 = () => {
               >
                 <div className="sidebar-heading d-lg-none d-flex align-items-center justify-content-between">
                   <Link to="/" className="logo-container">
-                    <img src="assets/img/rv-9-logo.png" alt="logo" />
+                    <img src="assets/img/rv-20-logo.png" alt="logo" />
                   </Link>
                   <button
                     className="rv-3-def-btn rv-1-header-mobile-menu-btn rv-9-mobile-menu-btn sidebar-close-btn"

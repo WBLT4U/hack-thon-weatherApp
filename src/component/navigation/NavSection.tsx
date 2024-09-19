@@ -39,51 +39,10 @@ const NavSection = ({ style }: Props) => {
           <Link to="/about">About</Link>
         </li>
       
-        <li className={dropdown.pages ? "rv-dropdown-active" : ""}>
-          <a role="button" onClick={() => handleToggleDropdown("pages")}>
-            Weather
-          </a>
-          <ul className="sub-menu">
-            <li>
-              <Link to="/services">Local Forecast</Link>
-            </li>
-            <li>
-              <Link to="/services/web-solution">Weather Alerts</Link>
-            </li>
-            
-          </ul>
+        <li>
+          <Link to="/#">Weather</Link>
         </li>
 
-        <li className={dropdown.shop ? "rv-dropdown-active" : ""}>
-          <a role="button" onClick={() => handleToggleDropdown("shop")}>
-          Agri
-          </a>
-          <ul className="sub-menu">
-            <li>
-              <Link to="/shop">Agric News </Link>
-            </li>
-            <li>
-              <Link to="/shop-sidebar">Ask AI</Link>
-            </li>
-            <li>
-              <Link to="/shop/herbal-hair-oil">Notifications</Link>
-            </li>
-          </ul>
-        </li>
-
-        <li className={dropdown.blog ? "rv-dropdown-active" : ""}>
-          <a role="button" onClick={() => handleToggleDropdown("blog")}>
-            Blog
-          </a>
-          <ul className="sub-menu">
-            <li>
-              <Link to="/blog">Blog</Link>
-            </li>
-            <li>
-              <Link to="/blog/finding-creative-flow-organic">Blog Details</Link>
-            </li>
-          </ul>
-        </li>
         <li className={dropdown.shop ? "rv-dropdown-active" : ""}>
           <a role="button" onClick={() => handleToggleDropdown("shop")}>
           Account
@@ -100,9 +59,7 @@ const NavSection = ({ style }: Props) => {
                 <li>
           <Link to="/contact">Contact</Link>
         </li>
-        <li>
-          <Link to="/about">Help</Link>
-        </li>
+        
       </ul>
     </div>
   );

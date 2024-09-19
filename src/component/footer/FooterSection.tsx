@@ -113,19 +113,19 @@ const FooterSection = ({
                 <h5 className="rv-1-footer-widget__title">Our Services</h5>
                 <ul className="rv-8-footer-widget__links">
                   <li>
-                    <a href="#">House Cleaning</a>
+                    <a href="#">Web Development</a>
                   </li>
                   <li>
-                    <a href="#">Office Cleaning</a>
+                    <a href="#">Software Development</a>
                   </li>
                   <li>
-                    <a href="#">Covid Cleaning</a>
+                    <a href="#">UI/UX Design</a>
                   </li>
                   <li>
-                    <a href="#">Carpet Cleaning</a>
+                    <a href="#">Mobile App Development</a>
                   </li>
                   <li>
-                    <a href="#">ContCar Cleaningact</a>
+                    <a href="#">IT Consultant</a>
                   </li>
                 </ul>
               </div>
@@ -143,10 +143,10 @@ const FooterSection = ({
 
                   <div className="rv-8-footer-article-txt">
                     <span className="rv-8-footer-article-date">
-                      <i className="fa-regular fa-clock"></i> June 16, 2023
+                      <i className="fa-regular fa-clock"></i> September 19, 2024
                     </span>
                     <h5 className="rv-8-footer-article-title">
-                      <a href="#">Ways to Freshen Up Curtains & Drapes Home.</a>
+                      <a href="#">Rice crop with a verge hactre of land</a>
                     </h5>
                   </div>
                 </div>
@@ -160,11 +160,11 @@ const FooterSection = ({
 
                   <div className="rv-8-footer-article-txt">
                     <span className="rv-8-footer-article-date">
-                      <i className="fa-regular fa-clock"></i> July 21, 2023
+                      <i className="fa-regular fa-clock"></i> September 19, 2024
                     </span>
                     <h5 className="rv-8-footer-article-title">
                       <a href="#">
-                        Streamlining Your Laundry Routine Through Automation.
+                        Beans crop with a verge hactre of land
                       </a>
                     </h5>
                   </div>

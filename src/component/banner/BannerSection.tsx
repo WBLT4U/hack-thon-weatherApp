@@ -51,16 +51,14 @@ const BannerSection = () => {
             <div className="row align-items-center">
               <div className="col-sm-10 col-md-9 col-lg-8 col-xl-7">
                 <div className="rv-20-banner_content">
-                  <span className="rv-20-banner_content_sub_heading rv-text-anime d-flex">
-                    <span></span> Hack Weather App
-                  </span>
+                  
                   <h1 className="rv-20-banner_content_heading rv-text-anime">
                   Empowering farmers with tomorrow’s weather, today.
                   </h1>
 
                   <div className="rv-20-banner_button_area">
                     <a href="#" className="rv-20-banner_content_btn">
-                      Weather Update
+                      Watch the Video
                     </a>
                     <a
                       className="rv-20-banner_content_play_btn"
@@ -80,15 +78,13 @@ const BannerSection = () => {
             <div className="row align-items-center">
               <div className="col-sm-10 col-md-9 col-lg-8 col-xl-7">
                 <div className="rv-20-banner_content">
-                  <span className="rv-20-banner_content_sub_heading rv-text-anime">
-                    <span></span> Hack Weather App
-                  </span>
+                  
                   <h1 className="rv-20-banner_content_heading rv-text-anime">
                   Bringing you the forecast for bountiful harvests.
                   </h1>
                   <div className="rv-20-banner_button_area">
                     <a href="#" className="rv-20-banner_content_btn">
-                      Explore More
+                    Watch the Video
                     </a>
                     <a
                       className="rv-20-banner_content_play_btn"
