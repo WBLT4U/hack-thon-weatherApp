@@ -15,3 +15,4 @@ const InnerLayout = ({ children }: Props) => {
 };
 
 export default InnerLayout;
+
