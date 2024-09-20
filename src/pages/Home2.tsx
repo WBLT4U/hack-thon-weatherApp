@@ -1,5 +1,5 @@
 import BannerSection2 from "../component/banner/BannerSection2";
-import BlogSection2 from "../component/blog/BlogSection2";
+
 import CategorySection from "../component/category/CategorySection";
 import FeatureSection from "../component/feature/FeatureSection";
 import GallerySection from "../component/gallery/GallerySection";
@@ -9,9 +9,6 @@ import CartModal from "../component/modal/CartModal";
 import SearchFormModal from "../component/modal/SearchFormModal";
 import WishlistModal from "../component/modal/WishlistModal";
 import PartnerSection from "../component/partner/PartnerSection";
-import ProductSection from "../component/product/ProductSection";
-import TopProductSection from "../component/product/TopProductSection";
-import ProjectSection from "../component/project/ProjectSection";
 import TestimonialSection2 from "../component/testimonial/TestimonialSection2";
 
 const Home2 = () => {
@@ -21,12 +18,11 @@ const Home2 = () => {
       <BannerSection2 />
       <FeatureSection />
       <CategorySection />
-      <ProductSection />
+      
       <InfoSection />
-      <TopProductSection />
-      <ProjectSection />
+      
       <TestimonialSection2 />
-      <BlogSection2 />
+      
       <PartnerSection />
       <GallerySection />
       
